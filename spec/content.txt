@@ -1,0 +1,43 @@
+Navbar:
+- TV Show
+- Game Mechanics (active)
+- Official Website (links to https://www.pokemon.com)
+
+
+
+
+Game Mechanics:
+- Pokémon
+- Moves
+- Abilities
+- Items
+- Types (active)
+
+
+
+
+Type chart:
+
+This chart lets you know how effective an attacking move of a given type (left) is
+against a defending Pokémon of another type (top). An X means "not very effective",
+while an O means "super effective"!
+
+            Fire    Water   Grass   Electric    Ice
+
+Fire        X       X       O                   O
+
+Water       O       X       X                   
+
+Grass       X       O       X                   
+
+Electric            O       X       X           
+
+Ice         X       X       O                   X
+
+
+
+
+Featured Pokémon:
+
+Pikachu
+Types: Electric

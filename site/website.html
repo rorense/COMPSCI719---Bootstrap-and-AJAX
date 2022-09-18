@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pokemon Fansite</title>
+    <meta charset="utf-8">
+
+    <!-- Required by Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+    <!-- Your own JS -->
+    <script src="./website.js"></script>
+</head>
+
+<body>
+    <!--Task 1. Question 1-->
+    <div class="jumbotron text-center p-2 mb-0">
+       <img src="images/pokemon.png">
+    </div>
+
+    <!--Task 1. Question 2-->
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+            <div class="navar-brand" style="color: white">Home</div>
+            <ul class="nav navbar-nav">
+                <li class="nav-item"><a class="nav-link" >TV Show</a></li>
+                <li class="active nav-item"><a class="nav-link">Game Mechanics</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.pokemon.com" >Official Website</a></li>
+            </ul>
+    </nav>
+    
+    <!--Task 1. Question 3-->
+    <div class="container">
+        <div class="row">
+
+          <!--Task 1. Question 4-->
+          <div class="col-xl-2">
+            <div class="nav flex-column nav-pills nav-fill">
+                    <a class="nav-item">
+                        <a style="font-size: 30px"><b>Game Mechanics</b></a>
+                    </a>
+                    <a class="nav-link" href="#">Pokemon</a>
+                    <a class="nav-link" href="#">Moves</a>
+                    <a class="nav-link" href="#">Abilities</a>
+                    <a class="nav-link" href="#">Items</a>
+                    <a class="nav-link active" href="#">Types</a>
+              </div>
+              <hr>
+          </div>
+          
+          <!--Task 1. Question 5-->
+          <div class="col-xl-7">
+            <p style="font-size: 40px"><b>Type chart:</b></p>
+            <p>This chart lets you know how effective an attacking move of a given type (left) is
+                against a defending Pokémon of another type (top). An X means "not very effective",
+                while an O means "super effective"!</p>
+            <table class="table table-striped img-responsive">
+              
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Fire</th>
+                    <th scope="col">Water</th>
+                    <th scope="col">Grass</th>
+                    <th scope="col">Electric</th>
+                    <th scope="col">Ice</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <!--
+                  <tr>
+                    <th scope="row">Fire</th>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>O</td>
+                    <td></td>
+                    <td>O</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">Water</th>
+                    <td>O</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">Grass</th>
+                    <td>X</td>
+                    <td>O</td>
+                    <td>X</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">Electric</th>
+                    <td></td>
+                    <td>O</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">Ice</th>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>O</td>
+                    <td></td>
+                    <td>X</td>
+                  </tr>
+              
+                  </tr>
+                  -->
+                </tbody>
+              </table>
+              <hr>
+          </div>
+          
+          <!--Task 1. Question 6-->
+          <div class="col-xl-3">
+            <p style="font-size: 20px; text-align: center;"><b>Featured Pokemon</b></p>
+            <div class="card">
+                <!--
+                <img class="card-img-top" src="./images/pikachu.png">
+                <div class="card-body">
+                  <h5 class="card-title">pikachu</h5>
+                  <p class="card-text"><b>Types: </b>Electric</p>
+                  <button type="button" href="#" class="btn btn-primary">More info</button>
+                  <button type="button" href="#" class="btn">Randomize</button>
+                </div>
+              -->
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="myModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <!--
+          Modal Content filled from js file.
+          -->
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>
